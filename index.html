@@ -4,14 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/profile-card.css">
+    <link rel="stylesheet" href="profile-card.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <li>
         <div id="musema-profile-card">
           <div id="photo-container">
-            <img class="profile-picture" src="./images/tisAbay.jpg" />
+            <img id="profile-picture" src="./images/img-5.jpg" />
           </div>
           <div>
             <span class="bold-text">Yared menderu</span>
@@ -52,6 +52,28 @@
             <button id="close-button">X</button>
           </div>
         </div>
+        <div id="modal" style="display: none;" >
+          <div id="modal-container">
+            <div id="modal-header-container">
+              <span id="my-name">
+                yared amercha
+              </span>
+              <button id="modal-close-button">x</button>
+            </div>
+            <div id="modal-image-container">
+              <img src="" alt="" id="modal-image">
+            </div>
+            <div id="next-back-container">
+              <div id="back">
+                <button id="back-btn">&lt</button>
+              </div>
+              <div id="next">
+                <button id="next-btn">&gt</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
       </li>
     
 </body>
